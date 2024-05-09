@@ -3,6 +3,9 @@ Linux RTX4090 driver をまずはダウンロード
 ダウンロードした奴をインストールする前に依存関係のインストール
 ```
 sudo apt-get install build-essential gcc-multilib dkms
+sudo apt update
+sudo apt install pkg-config libglvnd-dev
+
 ```
 Xサーバーの停止
 ```
