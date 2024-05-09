@@ -4,15 +4,11 @@ python入れる
 sudo apt update
 sudo apt install -y software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt update
+sudo apt list python3.*
 ```
 pythonのインストール
-````
-sudo apt install python 3.10
-``
-pythonの確認
 ```
-python3.10 --version
+sudo apt install -y python 3.10 python3.10-venv
 ```
 pythonの仮想環境を作るためのやつ
 ```
@@ -20,7 +16,7 @@ sudo apt install python3 python3-venv
 ```
 仮想環境の作成
 ```
-python -m venv env
+python3.10 -m venv env
 ```
 仮想環境の実行
 ```
