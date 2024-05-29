@@ -1,3 +1,10 @@
+日本語入力を可能にさせる
+```
+sudo apt update
+sudo apt install ibus-mozc
+sudo reboot
+```
+
 Linux RTX4090 driver をまずはダウンロード
 [link](https://www.nvidia.co.jp/download/driverResults.aspx/224356/jp)
 ダウンロードした奴をインストールする前に依存関係のインストール
