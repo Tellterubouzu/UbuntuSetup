@@ -1,3 +1,4 @@
+# これいれときゃLLMは動く!
 numpy
 scipy
 pandas
@@ -6,3 +7,5 @@ python-dotenv
 transformers
 accelerate
 bitsandbytes
+vllm
+flash-attn
