@@ -21,11 +21,11 @@ sudo systemctl isolate multi-user.target
 実行権限の追加
 普通にプロパティからプログラムとして実行可能にするでもok
 ```
-chmod +x /home/tell/ダウンロード/NVIDIA-Linux-x86_64-550.78.run
+chmod +x /home/｛ユーザー名｝/ダウンロード/NVIDIA-Linux-x86_64-550.78.run
 ```
 ドライバのインストール
 ```
-sudo /home/tell/ダウンロード/NVIDIA-Linux-x86_64-550.78.run
+sudo /home/｛ユーザー名｝/ダウンロード/NVIDIA-Linux-x86_64-550.78.run
 ```
 Xサーバーの再起動
 ```
@@ -47,3 +47,8 @@ sudo cp /var/cuda-repo-ubuntu2004-12-1-local/cuda-*-keyring.gpg /usr/share/keyri
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
+pcがcudaを認識してるかを確認
+```
+nvcc -V
+```
+nvcc command not foundとなったら[この記事](https://zenn.dev/tellterubouzu/articles/75a515af5cca45)を見よう！！
