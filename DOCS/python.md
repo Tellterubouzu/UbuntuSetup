@@ -8,7 +8,7 @@ sudo apt list python3.*
 ```
 pythonのインストール
 ```
-sudo apt install -y python3.10 python3.10-venv
+sudo apt install -y python3.10 python3.10-venv python3.10-dev
 ```
 pythonの仮想環境を作るためのやつ
 ```
